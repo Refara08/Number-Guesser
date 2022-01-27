@@ -18,6 +18,10 @@
       .emo {
         font-size: 30px;
       }
+      .main-p {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
       .prev-guess-display {
         display: none;
       }
@@ -29,11 +33,12 @@
   </head>
   <body>
     <div class="container">
-      <h1>Guess me if You Can!</h1>
+      <h1>Guess a Number!</h1>
       <div id="game">
-        <p>
+        <p class="main-p">
           Guess a number between <span class="min-num"></span> and
           <span class="max-num"></span>.
+          <br />
           <strong> You have <span class="guess-left"></span> Attempts! </strong>
         </p>
         <p class="prev-guess-display">
